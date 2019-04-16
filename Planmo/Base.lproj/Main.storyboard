@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8j8-8u-CID">
-                                <rect key="frame" x="258" y="638" width="136" height="79"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bunnlesBlue" translatesAutoresizingMaskIntoConstraints="NO" id="8j8-8u-CID">
+                                <rect key="frame" x="253" y="578" width="141" height="139"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Sa-mg-RNJ">
                                 <rect key="frame" x="20" y="195" width="240" height="86"/>
@@ -35,7 +35,9 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIh-JU-EPM">
                                 <rect key="frame" x="33" y="638" width="100" height="66"/>
-                                <state key="normal" title="Add Task"/>
+                                <state key="normal" title="Add Task">
+                                    <color key="titleColor" red="0.15992409833436763" green="0.2921573694090383" blue="0.49481865284974091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -82,64 +84,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhQ-1i-jk3">
-                                <rect key="frame" x="33" y="136" width="85" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Task Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GqA-DE-enf">
+                                <rect key="frame" x="33" y="111" width="77" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GqA-DE-enf">
-                                <rect key="frame" x="33" y="231" width="77" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Priority Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1y-Hi-E93">
+                                <rect key="frame" x="33" y="225" width="99" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Priority Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1y-Hi-E93">
-                                <rect key="frame" x="33" y="332" width="99" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Date &amp; Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wuL-gw-DE8">
+                                <rect key="frame" x="33" y="387" width="95" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date &amp; Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wuL-gw-DE8">
-                                <rect key="frame" x="33" y="476" width="95" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2T-Nb-V4X">
-                                <rect key="frame" x="189" y="360" width="37" height="30"/>
-                                <state key="normal" title="Low !"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2T-Nb-V4X">
+                                <rect key="frame" x="189" y="268" width="37" height="30"/>
+                                <state key="normal" title="Low !">
+                                    <color key="titleColor" red="0.15992409830000001" green="0.29215736939999998" blue="0.49481865279999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMT-TN-Ndd">
-                                <rect key="frame" x="174" y="398" width="68" height="30"/>
-                                <state key="normal" title="Medium !!"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMT-TN-Ndd">
+                                <rect key="frame" x="173" y="306" width="68" height="30"/>
+                                <state key="normal" title="Medium !!">
+                                    <color key="titleColor" red="0.15992409830000001" green="0.29215736939999998" blue="0.49481865279999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUa-Ck-pMd">
-                                <rect key="frame" x="183" y="436" width="50" height="30"/>
-                                <state key="normal" title="High !!!"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUa-Ck-pMd">
+                                <rect key="frame" x="182" y="344" width="50" height="30"/>
+                                <state key="normal" title="High !!!">
+                                    <color key="titleColor" red="0.15992409830000001" green="0.29215736939999998" blue="0.49481865279999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hgz-uX-aBk">
-                                <rect key="frame" x="119" y="272" width="179" height="28"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hgz-uX-aBk">
+                                <rect key="frame" x="118" y="158" width="179" height="28"/>
                                 <segments>
                                     <segment title="Mandatory"/>
                                     <segment title="Voluntary"/>
                                 </segments>
+                                <color key="tintColor" red="0.15992409830000001" green="0.29215736939999998" blue="0.49481865279999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </segmentedControl>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CHR-MC-u1Q">
-                                <rect key="frame" x="119" y="171" width="179" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ajv-Ef-FgL">
-                                <rect key="frame" x="1" y="487" width="413" height="216"/>
+                            <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ajv-Ef-FgL">
+                                <rect key="frame" x="0.0" y="416" width="413" height="216"/>
                                 <date key="date" timeIntervalSinceReferenceDate="576971153.71407402">
                                     <!--2019-04-14 21:45:53 +0000-->
                                 </date>
                             </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sth-tk-dr9">
-                                <rect key="frame" x="294" y="757" width="100" height="30"/>
-                                <state key="normal" title="Add Task"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sth-tk-dr9">
+                                <rect key="frame" x="294" y="640" width="100" height="30"/>
+                                <state key="normal" title="Add Task">
+                                    <color key="titleColor" red="0.15992409830000001" green="0.29215736939999998" blue="0.49481865279999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -148,30 +147,23 @@
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="trailing" secondItem="GqA-DE-enf" secondAttribute="trailing" constant="304" id="1wf-vt-cs6"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="trailing" secondItem="hgz-uX-aBk" secondAttribute="trailing" constant="116" id="3T4-kx-1vs"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="bottom" secondItem="q2T-Nb-V4X" secondAttribute="bottom" constant="472" id="4DQ-d5-Y0Z"/>
-                            <constraint firstItem="mcS-AS-lO1" firstAttribute="trailing" secondItem="CHR-MC-u1Q" secondAttribute="trailing" constant="116" id="5R7-Ix-aHb"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="trailing" secondItem="lMT-TN-Ndd" secondAttribute="trailing" constant="172" id="7q9-2E-bEa"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="bottom" secondItem="hgz-uX-aBk" secondAttribute="bottom" constant="563" id="88x-C2-vhs"/>
                             <constraint firstItem="t1y-Hi-E93" firstAttribute="top" secondItem="mcS-AS-lO1" secondAttribute="top" constant="288" id="8Jx-Fp-NUK"/>
-                            <constraint firstItem="CHR-MC-u1Q" firstAttribute="leading" secondItem="mcS-AS-lO1" secondAttribute="leading" constant="119" id="8KV-EQ-hKD"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="bottom" secondItem="lMT-TN-Ndd" secondAttribute="bottom" constant="434" id="BKI-bK-nJz"/>
-                            <constraint firstItem="mcS-AS-lO1" firstAttribute="bottom" secondItem="CHR-MC-u1Q" secondAttribute="bottom" constant="661" id="EKh-ko-DYW"/>
                             <constraint firstItem="lMT-TN-Ndd" firstAttribute="leading" secondItem="mcS-AS-lO1" secondAttribute="leading" constant="174" id="HaM-Vl-ezX"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="bottom" secondItem="wuL-gw-DE8" secondAttribute="bottom" constant="365" id="J8A-ZJ-C6a"/>
                             <constraint firstItem="GqA-DE-enf" firstAttribute="top" secondItem="mcS-AS-lO1" secondAttribute="top" constant="187" id="JC9-22-1gC"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="bottom" secondItem="dUa-Ck-pMd" secondAttribute="bottom" constant="396" id="KPN-t0-9Bn"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="trailing" secondItem="q2T-Nb-V4X" secondAttribute="trailing" constant="188" id="MON-s9-TBp"/>
-                            <constraint firstItem="GhQ-1i-jk3" firstAttribute="leading" secondItem="mcS-AS-lO1" secondAttribute="leading" constant="33" id="Oj4-DU-iY4"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="trailing" secondItem="Sth-tk-dr9" secondAttribute="trailing" constant="20" id="RDU-qc-qh9"/>
                             <constraint firstItem="dUa-Ck-pMd" firstAttribute="leading" secondItem="mcS-AS-lO1" secondAttribute="leading" constant="183" id="RPy-VC-F5d"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="bottom" secondItem="Sth-tk-dr9" secondAttribute="bottom" constant="75" id="SZG-gv-yDU"/>
                             <constraint firstItem="Ajv-Ef-FgL" firstAttribute="trailing" secondItem="mcS-AS-lO1" secondAttribute="trailing" id="TnU-a5-MI5"/>
-                            <constraint firstItem="CHR-MC-u1Q" firstAttribute="top" secondItem="mcS-AS-lO1" secondAttribute="top" constant="127" id="WrO-u4-7CZ"/>
                             <constraint firstItem="wuL-gw-DE8" firstAttribute="top" secondItem="mcS-AS-lO1" secondAttribute="top" constant="432" id="Xqf-3G-eFc"/>
                             <constraint firstItem="Sth-tk-dr9" firstAttribute="leading" secondItem="mcS-AS-lO1" secondAttribute="leading" constant="294" id="YtH-Pn-2Bs"/>
-                            <constraint firstItem="mcS-AS-lO1" firstAttribute="bottom" secondItem="GhQ-1i-jk3" secondAttribute="bottom" constant="705" id="ZZc-Dr-dqg"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="trailing" secondItem="t1y-Hi-E93" secondAttribute="trailing" constant="282" id="afj-xx-I28"/>
                             <constraint firstItem="Sth-tk-dr9" firstAttribute="top" secondItem="Ajv-Ef-FgL" secondAttribute="bottom" constant="54" id="b76-wz-2pY"/>
-                            <constraint firstItem="GhQ-1i-jk3" firstAttribute="top" secondItem="mcS-AS-lO1" secondAttribute="top" constant="92" id="bNQ-Rk-6K7"/>
                             <constraint firstItem="q2T-Nb-V4X" firstAttribute="leading" secondItem="mcS-AS-lO1" secondAttribute="leading" constant="189" id="cUl-qa-apH"/>
                             <constraint firstItem="lMT-TN-Ndd" firstAttribute="top" secondItem="mcS-AS-lO1" secondAttribute="top" constant="354" id="chL-rX-k5N"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="bottom" secondItem="t1y-Hi-E93" secondAttribute="bottom" constant="509" id="cr6-bR-6OZ"/>
@@ -186,7 +178,6 @@
                             <constraint firstItem="hgz-uX-aBk" firstAttribute="leading" secondItem="mcS-AS-lO1" secondAttribute="leading" constant="119" id="msI-EK-Y81"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="trailing" secondItem="dUa-Ck-pMd" secondAttribute="trailing" constant="181" id="n2D-3S-qF0"/>
                             <constraint firstItem="mcS-AS-lO1" firstAttribute="bottom" secondItem="GqA-DE-enf" secondAttribute="bottom" constant="610" id="nlK-7Z-9O7"/>
-                            <constraint firstItem="mcS-AS-lO1" firstAttribute="trailing" secondItem="GhQ-1i-jk3" secondAttribute="trailing" constant="296" id="pn3-M1-aTr"/>
                             <constraint firstItem="q2T-Nb-V4X" firstAttribute="top" secondItem="mcS-AS-lO1" secondAttribute="top" constant="316" id="r4L-gI-6Xc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mcS-AS-lO1"/>
@@ -197,5 +188,8 @@
             <point key="canvasLocation" x="750.72463768115949" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bunnlesBlue" width="600" height="600"/>
+    </resources>
     <color key="tintColor" red="1" green="0.27131503146384872" blue="0.18401596072107029" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
