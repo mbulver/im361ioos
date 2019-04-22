@@ -15,6 +15,9 @@
 		F50DE45C225D972600B08E57 /* PlanmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DE45B225D972600B08E57 /* PlanmoTests.swift */; };
 		F50DE467225D972700B08E57 /* PlanmoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DE466225D972700B08E57 /* PlanmoUITests.swift */; };
 		F5BA072022654664009B65D8 /* addTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA071F22654664009B65D8 /* addTask.swift */; };
+		F5E8004D2267E5F500B89797 /* taskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8004C2267E5F500B89797 /* taskTableViewController.swift */; };
+		F5E8004F2267E96500B89797 /* TaskViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8004E2267E96500B89797 /* TaskViewCell.swift */; };
+		F5E800512267ED4E00B89797 /* TaskStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E800502267ED4E00B89797 /* TaskStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		F50DE466225D972700B08E57 /* PlanmoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanmoUITests.swift; sourceTree = "<group>"; };
 		F50DE468225D972700B08E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5BA071F22654664009B65D8 /* addTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTask.swift; sourceTree = "<group>"; };
+		F5E8004C2267E5F500B89797 /* taskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskTableViewController.swift; sourceTree = "<group>"; };
+		F5E8004E2267E96500B89797 /* TaskViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewCell.swift; sourceTree = "<group>"; };
+		F5E800502267ED4E00B89797 /* TaskStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +108,10 @@
 				F50DE446225D971400B08E57 /* AppDelegate.swift */,
 				F50DE448225D971400B08E57 /* ViewController.swift */,
 				F50DE44A225D971400B08E57 /* Main.storyboard */,
+				F5E8004E2267E96500B89797 /* TaskViewCell.swift */,
 				F50DE44D225D972500B08E57 /* Assets.xcassets */,
+				F5E8004C2267E5F500B89797 /* taskTableViewController.swift */,
+				F5E800502267ED4E00B89797 /* TaskStruct.swift */,
 				F50DE44F225D972500B08E57 /* LaunchScreen.storyboard */,
 				F50DE452225D972500B08E57 /* Info.plist */,
 				F5BA071F22654664009B65D8 /* addTask.swift */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E8004D2267E5F500B89797 /* taskTableViewController.swift in Sources */,
 				F5BA072022654664009B65D8 /* addTask.swift in Sources */,
+				F5E8004F2267E96500B89797 /* TaskViewCell.swift in Sources */,
+				F5E800512267ED4E00B89797 /* TaskStruct.swift in Sources */,
 				F50DE449225D971400B08E57 /* ViewController.swift in Sources */,
 				F50DE447225D971400B08E57 /* AppDelegate.swift in Sources */,
 			);
